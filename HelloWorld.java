@@ -10,7 +10,7 @@ public class HelloWorld{
         File file = new File(scanner.nextLine());
         sc = new Scanner(file);
         System.out.println("Hello World This is TDTU");
-        while(sc.hasNextLine()){
+        while(scanner.hasNextLine()){
             System.out.print("Hello World I am " + scanner.nextLine()+ "\n");
             dem++;
         }
