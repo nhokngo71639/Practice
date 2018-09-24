@@ -9,7 +9,7 @@ public class HelloWorld{
         System.out.print("Input student list: ");
         File file = new File(scanner.nextLine());
         scanner = new Scanner(file);
-        System.out.print("Hello World This is TDTU");
+        System.out.println("Hello World This is TDTU");
         while(scanner.hasNextLine()){
             System.out.print("Hello World I am " + scanner.nextLine()+ "\n");
             dem++;
